@@ -2,6 +2,7 @@ name: Semgrep
 
 on:
   workflow_call:
+  workflow_dispatch:
 
 jobs:
   owasp-top-10-scans:
